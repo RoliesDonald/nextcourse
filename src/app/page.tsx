@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Halllooooo Semua
-    </main>
+    <div className="text-rose-500 text-2xl">
+      Halllooooo Semua ini sudah dari docker container
+    </div>
   );
 }
